@@ -9,8 +9,13 @@ packages = [{include = "slack_todos"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 slack-sdk = "^3.21.3"
+textual = {extras = ["dev"], version = "^0.26.0"}
+click = "^8.1.3"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+td = "slack_todos.app:cli"

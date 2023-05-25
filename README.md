@@ -6,5 +6,3 @@ A CLI tool using the Slack Reminder API and todo.txt as backend.
   - Slack
   - Todos via Local
   - Todos via Git
-
-
