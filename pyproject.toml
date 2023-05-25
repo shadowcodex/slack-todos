@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "slack-todos"
+version = "0.1.0"
+description = ""
+authors = ["shadowcodex <jsduncan98@gmail.com>"]
+readme = "README.md"
+packages = [{include = "slack_todos"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+slack-sdk = "^3.21.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
